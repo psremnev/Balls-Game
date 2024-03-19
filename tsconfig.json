@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "jsx": "react-jsx",
+    "target": "es2017",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "sourceMap": false,
+    "pretty": true,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "baseUrl": ".",
+    "paths": {
+      "*": [
+        "*",
+        "components/*"
+      ]
+    }
+  },
+  "exclude": [
+    "build",
+    "node_modules"
+  ]
+}
